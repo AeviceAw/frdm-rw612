@@ -91,7 +91,8 @@ source/i2c_polling_b2b_master.o source/i2c_polling_b2b_master.d: \
  C:\MCUexpresso\aeviceMD12\rdrw612bga_lpc_i2c_polling_b2b_master_default\utilities\debug_console_lite/fsl_debug_console.h \
  C:\MCUexpresso\aeviceMD12\rdrw612bga_lpc_i2c_polling_b2b_master_default\drivers/fsl_i2c.h \
  C:\MCUexpresso\aeviceMD12\rdrw612bga_lpc_i2c_polling_b2b_master_default\board/pin_mux.h \
- C:\MCUexpresso\aeviceMD12\rdrw612bga_lpc_i2c_polling_b2b_master_default\board/clock_config.h
+ C:\MCUexpresso\aeviceMD12\rdrw612bga_lpc_i2c_polling_b2b_master_default\board/clock_config.h \
+ ../source/i2c_handler.h
 C:\MCUexpresso\aeviceMD12\rdrw612bga_lpc_i2c_polling_b2b_master_default\source\mcux_config.h:
 C:\MCUexpresso\aeviceMD12\rdrw612bga_lpc_i2c_polling_b2b_master_default\board/board.h:
 C:\MCUexpresso\aeviceMD12\rdrw612bga_lpc_i2c_polling_b2b_master_default\drivers/fsl_common.h:
@@ -184,3 +185,4 @@ C:\MCUexpresso\aeviceMD12\rdrw612bga_lpc_i2c_polling_b2b_master_default\utilitie
 C:\MCUexpresso\aeviceMD12\rdrw612bga_lpc_i2c_polling_b2b_master_default\drivers/fsl_i2c.h:
 C:\MCUexpresso\aeviceMD12\rdrw612bga_lpc_i2c_polling_b2b_master_default\board/pin_mux.h:
 C:\MCUexpresso\aeviceMD12\rdrw612bga_lpc_i2c_polling_b2b_master_default\board/clock_config.h:
+../source/i2c_handler.h:

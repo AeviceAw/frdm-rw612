@@ -4,14 +4,17 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
+../source/i2c_handler.c \
 ../source/i2c_polling_b2b_master.c \
 ../source/semihost_hardfault.c 
 
 C_DEPS += \
+./source/i2c_handler.d \
 ./source/i2c_polling_b2b_master.d \
 ./source/semihost_hardfault.d 
 
 OBJS += \
+./source/i2c_handler.o \
 ./source/i2c_polling_b2b_master.o \
 ./source/semihost_hardfault.o 
 
@@ -28,7 +31,7 @@ source/%.o: ../source/%.c source/subdir.mk
 clean: clean-source
 
 clean-source:
-	-$(RM) ./source/i2c_polling_b2b_master.d ./source/i2c_polling_b2b_master.o ./source/semihost_hardfault.d ./source/semihost_hardfault.o
+	-$(RM) ./source/i2c_handler.d ./source/i2c_handler.o ./source/i2c_polling_b2b_master.d ./source/i2c_polling_b2b_master.o ./source/semihost_hardfault.d ./source/semihost_hardfault.o
 
 .PHONY: clean-source
 

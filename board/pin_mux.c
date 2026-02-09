@@ -38,9 +38,9 @@ void BOARD_InitBootPins(void)
 BOARD_InitPins:
 - options: {callFromInitBoot: 'true', coreID: cm33, enableClock: 'true'}
 - pin_list:
-  - {pin_num: J3, peripheral: FLEXCOMM2, signal: I2C_SDA, pin_signal: GPIO_16}
   - {pin_num: E5, peripheral: FLEXCOMM3, signal: USART_RXD, pin_signal: GPIO_24}
-  - {pin_num: H2, peripheral: FLEXCOMM2, signal: I2C_SCL, pin_signal: GPIO_17}
+  - {pin_num: F10, peripheral: FLEXCOMM0, signal: I2C_SDA, pin_signal: GPIO_2}
+  - {pin_num: C13, peripheral: FLEXCOMM0, signal: I2C_SCL, pin_signal: GPIO_3}
  * BE CAREFUL MODIFYING THIS COMMENT - IT IS YAML SETTINGS FOR TOOLS ***********
  */
 /* clang-format on */
@@ -54,8 +54,8 @@ BOARD_InitPins:
 /* Function assigned for the Cortex-M33 */
 void BOARD_InitPins(void)
 {
-    /* Initialize FC2_I2C_16_17 functionality on pin GPIO_16, GPIO_17 (pin J3_H2) */
-    IO_MUX_SetPinMux(IO_MUX_FC2_I2C_16_17);
+    /* Initialize FC0_I2C_2_3 functionality on pin GPIO_2, GPIO_3 (pin F10_C13) */
+    IO_MUX_SetPinMux(IO_MUX_FC0_I2C_2_3);
     /* Initialize FC3_USART_DATA functionality on pin GPIO_24 (pin E5) */
     IO_MUX_SetPinMux(IO_MUX_FC3_USART_DATA);
 }

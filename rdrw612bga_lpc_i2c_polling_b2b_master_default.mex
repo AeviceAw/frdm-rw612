@@ -49,9 +49,9 @@
                   </dependency>
                </dependencies>
                <pins>
-                  <pin peripheral="FLEXCOMM2" signal="I2C_SDA" pin_num="J3" pin_signal="GPIO_16"/>
                   <pin peripheral="FLEXCOMM3" signal="USART_RXD" pin_num="E5" pin_signal="GPIO_24"/>
-                  <pin peripheral="FLEXCOMM2" signal="I2C_SCL" pin_num="H2" pin_signal="GPIO_17"/>
+                  <pin peripheral="FLEXCOMM0" signal="I2C_SDA" pin_num="F10" pin_signal="GPIO_2"/>
+                  <pin peripheral="FLEXCOMM0" signal="I2C_SCL" pin_num="C13" pin_signal="GPIO_3"/>
                </pins>
             </function>
          </functions_list>

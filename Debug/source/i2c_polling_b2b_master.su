@@ -1,3 +1,1 @@
-../source/i2c_polling_b2b_master.c:27:17:i2c_write	56	static
-../source/i2c_polling_b2b_master.c:44:17:i2c_read	48	static
-../source/i2c_polling_b2b_master.c:60:5:main	56	static
+../source/i2c_polling_b2b_master.c:36:5:main	40	static

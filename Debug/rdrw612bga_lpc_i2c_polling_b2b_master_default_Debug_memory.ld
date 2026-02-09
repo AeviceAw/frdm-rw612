@@ -6,7 +6,7 @@
  * Generated linker script file for RW612
  * Created from memory.ldt by FMCreateLinkMemory
  * Using Freemarker v2.3.30
- * MCUXpresso IDE v25.6 [Build 136] [2025-06-27] on 13 Jan 2026, 10:22:45 am
+ * MCUXpresso IDE v25.6 [Build 136] [2025-06-27] on 12 Feb 2026, 3:29:46 pm
  */
 
 MEMORY
