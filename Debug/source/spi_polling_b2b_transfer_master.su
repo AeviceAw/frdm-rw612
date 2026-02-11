@@ -1,0 +1,7 @@
+C:\MCUexpresso\aeviceMD12\rdrw612bga_flexcomm_spi_polling_b2b_transfer_master\drivers/fsl_gpio.h:153:20:GPIO_PinWrite	24	static
+C:\MCUexpresso\aeviceMD12\rdrw612bga_flexcomm_spi_polling_b2b_transfer_master\drivers/fsl_io_mux.h:1578:20:IO_MUX_SetPinMux	32	static
+../source/spi_polling_b2b_transfer_master.c:24:5:main	24	static
+../source/spi_polling_b2b_transfer_master.c:50:13:SPI_Init	32	static
+../source/spi_polling_b2b_transfer_master.c:70:13:CS_Init	40	static
+../source/spi_polling_b2b_transfer_master.c:85:13:SRAM_Write	80	dynamic
+../source/spi_polling_b2b_transfer_master.c:112:13:SRAM_Read	104	dynamic
