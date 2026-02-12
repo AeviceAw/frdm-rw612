@@ -1,0 +1,15 @@
+# MCUXpresso build output
+Debug/
+Release/
+
+# object files
+*.o
+*.axf
+*.map
+*.su
+
+# linker outputs
+*.ld
+
+# temporary files
+*.log
