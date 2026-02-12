@@ -1,3 +1,0 @@
-C:\MCUexpresso\aeviceMD12\rdrw612bga_flexcomm_spi_polling_b2b_transfer_master\drivers/fsl_io_mux.h:1578:20:IO_MUX_SetPinMux	32	static
-../board/pin_mux.c:29:6:BOARD_InitBootPins	8	static
-../board/pin_mux.c:56:6:BOARD_InitPins	32	static
