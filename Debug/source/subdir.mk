@@ -6,17 +6,17 @@
 C_SRCS += \
 ../source/semihost_hardfault.c \
 ../source/spi_polling_b2b_transfer_master.c \
-../source/sram.c 
+../source/spi_sram.c 
 
 C_DEPS += \
 ./source/semihost_hardfault.d \
 ./source/spi_polling_b2b_transfer_master.d \
-./source/sram.d 
+./source/spi_sram.d 
 
 OBJS += \
 ./source/semihost_hardfault.o \
 ./source/spi_polling_b2b_transfer_master.o \
-./source/sram.o 
+./source/spi_sram.o 
 
 
 # Each subdirectory must supply rules for building sources it contributes
@@ -31,7 +31,7 @@ source/%.o: ../source/%.c source/subdir.mk
 clean: clean-source
 
 clean-source:
-	-$(RM) ./source/semihost_hardfault.d ./source/semihost_hardfault.o ./source/spi_polling_b2b_transfer_master.d ./source/spi_polling_b2b_transfer_master.o ./source/sram.d ./source/sram.o
+	-$(RM) ./source/semihost_hardfault.d ./source/semihost_hardfault.o ./source/spi_polling_b2b_transfer_master.d ./source/spi_polling_b2b_transfer_master.o ./source/spi_sram.d ./source/spi_sram.o
 
 .PHONY: clean-source
 

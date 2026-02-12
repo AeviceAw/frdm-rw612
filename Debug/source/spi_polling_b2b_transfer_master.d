@@ -90,11 +90,9 @@ source/spi_polling_b2b_transfer_master.o \
  C:\MCUexpresso\aeviceMD12\rdrw612bga_flexcomm_spi_polling_b2b_transfer_master\drivers/fsl_reset.h \
  C:\MCUexpresso\aeviceMD12\rdrw612bga_flexcomm_spi_polling_b2b_transfer_master\drivers/fsl_gpio.h \
  C:\MCUexpresso\aeviceMD12\rdrw612bga_flexcomm_spi_polling_b2b_transfer_master\board/pin_mux.h \
+ C:\MCUexpresso\aeviceMD12\rdrw612bga_flexcomm_spi_polling_b2b_transfer_master\board/clock_config.h \
  C:\MCUexpresso\aeviceMD12\rdrw612bga_flexcomm_spi_polling_b2b_transfer_master\utilities\debug_console_lite/fsl_debug_console.h \
- C:\MCUexpresso\aeviceMD12\rdrw612bga_flexcomm_spi_polling_b2b_transfer_master\drivers/fsl_spi.h \
- C:\MCUexpresso\aeviceMD12\rdrw612bga_flexcomm_spi_polling_b2b_transfer_master\drivers/fsl_flexcomm.h \
- C:\MCUexpresso\aeviceMD12\rdrw612bga_flexcomm_spi_polling_b2b_transfer_master\drivers/fsl_io_mux.h \
- C:\MCUexpresso\aeviceMD12\rdrw612bga_flexcomm_spi_polling_b2b_transfer_master\board/clock_config.h
+ ../source/spi_sram.h
 C:\MCUexpresso\aeviceMD12\rdrw612bga_flexcomm_spi_polling_b2b_transfer_master\source\mcux_config.h:
 C:\MCUexpresso\aeviceMD12\rdrw612bga_flexcomm_spi_polling_b2b_transfer_master\board/board.h:
 C:\MCUexpresso\aeviceMD12\rdrw612bga_flexcomm_spi_polling_b2b_transfer_master\drivers/fsl_common.h:
@@ -184,8 +182,6 @@ C:\MCUexpresso\aeviceMD12\rdrw612bga_flexcomm_spi_polling_b2b_transfer_master\dr
 C:\MCUexpresso\aeviceMD12\rdrw612bga_flexcomm_spi_polling_b2b_transfer_master\drivers/fsl_reset.h:
 C:\MCUexpresso\aeviceMD12\rdrw612bga_flexcomm_spi_polling_b2b_transfer_master\drivers/fsl_gpio.h:
 C:\MCUexpresso\aeviceMD12\rdrw612bga_flexcomm_spi_polling_b2b_transfer_master\board/pin_mux.h:
-C:\MCUexpresso\aeviceMD12\rdrw612bga_flexcomm_spi_polling_b2b_transfer_master\utilities\debug_console_lite/fsl_debug_console.h:
-C:\MCUexpresso\aeviceMD12\rdrw612bga_flexcomm_spi_polling_b2b_transfer_master\drivers/fsl_spi.h:
-C:\MCUexpresso\aeviceMD12\rdrw612bga_flexcomm_spi_polling_b2b_transfer_master\drivers/fsl_flexcomm.h:
-C:\MCUexpresso\aeviceMD12\rdrw612bga_flexcomm_spi_polling_b2b_transfer_master\drivers/fsl_io_mux.h:
 C:\MCUexpresso\aeviceMD12\rdrw612bga_flexcomm_spi_polling_b2b_transfer_master\board/clock_config.h:
+C:\MCUexpresso\aeviceMD12\rdrw612bga_flexcomm_spi_polling_b2b_transfer_master\utilities\debug_console_lite/fsl_debug_console.h:
+../source/spi_sram.h:

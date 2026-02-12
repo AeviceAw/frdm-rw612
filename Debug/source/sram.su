@@ -1,9 +1,0 @@
-C:\MCUexpresso\aeviceMD12\rdrw612bga_flexcomm_spi_polling_b2b_transfer_master\drivers/fsl_gpio.h:153:20:GPIO_PinWrite	24	static
-../source/sram.c:35:20:cs_low	8	static
-../source/sram.c:40:20:cs_high	8	static
-../source/sram.c:45:17:spi_xfer	40	static
-../source/sram.c:57:17:write_enable	16	static
-../source/sram.c:66:17:set_sequential_mode	16	static
-../source/sram.c:79:10:sram23_init	40	static
-../source/sram.c:116:10:sram23_write	32	static
-../source/sram.c:139:10:sram23_read	32	static

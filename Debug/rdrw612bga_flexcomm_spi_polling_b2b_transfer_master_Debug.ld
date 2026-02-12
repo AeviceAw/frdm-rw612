@@ -6,7 +6,7 @@
  * Generated linker script file for RW612
  * Created from linkscript.ldt by FMCreateLinkLibraries
  * Using Freemarker v2.3.30
- * MCUXpresso IDE v25.6 [Build 136] [2025-06-27] on 11 Feb 2026, 4:42:55 pm
+ * MCUXpresso IDE v25.6 [Build 136] [2025-06-27] on 12 Feb 2026, 11:23:12 am
  */
 
 INCLUDE "rdrw612bga_flexcomm_spi_polling_b2b_transfer_master_Debug_library.ld"
